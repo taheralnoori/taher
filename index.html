@@ -1,0 +1,1765 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta ll="1">
+		
+    <meta charset="utf-8">
+    <meta name="keywords" content="word doc docx translate translation, translate pdf, word translator, translate to english, pdf translator, language translator">
+    <meta name="description" content="Free online service which translates PDF or Word documents into multiple languages and preserving the original layout.">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"/>
+    <meta name="csrf-token" content="BHJ96giHQQL9hYAmnRo86nmgTasrsvobs53Wj6Hm">
+    <title>Free Translator for PDF or Word using DeftPDF</title>
+	<link rel="stylesheet" type="text/css" href="style.css"/>
+    
+	
+    
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Amatic+SC|Charmonman|Courgette|Dancing+Script|Dokdo|Gamja+Flower|Gloria+Hallelujah|Indie+Flower|Pacifico|Patrick+Hand|Permanent+Marker|Shadows+Into+Light" rel="stylesheet">
+    <style>@import url(https://fonts.googleapis.com/css?family=Montserrat:300,400,500,600,700,800,900);</style>
+    <style>html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,embed,figure,figcaption,footer,header,hgroup,menu,nav,output,ruby,section,summary,time,mark,audio,video{margin:0;padding:0;border:0;font-size:100%;font:inherit;vertical-align:baseline;box-sizing:border-box}article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{display:block}body{line-height:1}ol,ul{list-style:none}blockquote,q{quotes:none}blockquote:before,blockquote:after,q:before,q:after{content:'';content:none}table{border-collapse:collapse;border-spacing:0}a,a:hover,a:visited,a:focus,a:active{text-decoration:none;color:inherit;transition:all .3s ease;cursor:pointer}a:hover{opacity:.7}</style>
+    <link rel="stylesheet" href="https://deftpdf.com/A.css,,_style.css+css,,_main.css+css,,_StyleSheet.css+css,,_media.css+css,,_additional-popup-style.css+css,,_additional-front.css+libs,,_pdfjs-dist,,_web,,_pdf_viewer.css+css,,_sweetalert2.min.css+css,,_pdf-translate.css,Mcc.lSsKQohYiJ.css.pagespeed.cf.8-b6TthDZf.css"/>
+    
+    
+    
+    
+    
+	
+    
+    <!-- STYLESHEETS END -->
+
+
+
+	
+
+    </head>
+<body dd='https://deftpdf.com'>
+
+
+
+
+    
+	<div id="fb-root"></div>
+	<script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v3.3"></script>
+
+	<div class="current_uploads"></div>
+    <header>
+		    
+    	
+    
+        <div class="header-top">
+            <div class="container">
+                <div class="header-wrap">
+                	                    <a href="/" class="header-logo">
+                        <svg width="93" height="32" viewBox="0 0 93 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect width="32" height="32" rx="3" fill="url(#paint0_linear)"/>
+<rect width="32" height="32" rx="3" fill="url(#paint1_linear)"/>
+<rect width="32" height="32" rx="3" fill="url(#paint2_linear)"/>
+<path id="logo-icon" d="M10 10H15.4205C16.7159 10 17.858 10.2514 18.8466 10.7543C19.8466 11.2457 20.6193 11.9429 21.1648 12.8457C21.7216 13.7486 22 14.8 22 16C22 17.2 21.7216 18.2514 21.1648 19.1543C20.6193 20.0571 19.8466 20.76 18.8466 21.2629C17.858 21.7543 16.7159 22 15.4205 22H10V10ZM15.2841 19.72C16.4773 19.72 17.4261 19.3886 18.1307 18.7257C18.8466 18.0514 19.2045 17.1429 19.2045 16C19.2045 14.8571 18.8466 13.9543 18.1307 13.2914C17.4261 12.6171 16.4773 12.28 15.2841 12.28H12.7614V19.72H15.2841Z" fill="white"/>
+<path id="logo-text" d="M39.996 11.6H43.812C44.724 11.6 45.528 11.776 46.224 12.128C46.928 12.472 47.472 12.96 47.856 13.592C48.248 14.224 48.444 14.96 48.444 15.8C48.444 16.64 48.248 17.376 47.856 18.008C47.472 18.64 46.928 19.132 46.224 19.484C45.528 19.828 44.724 20 43.812 20H39.996V11.6ZM43.716 18.404C44.556 18.404 45.224 18.172 45.72 17.708C46.224 17.236 46.476 16.6 46.476 15.8C46.476 15 46.224 14.368 45.72 13.904C45.224 13.432 44.556 13.196 43.716 13.196H41.94V18.404H43.716ZM56.1021 16.796C56.1021 16.82 56.0901 16.988 56.0661 17.3H51.1821C51.2701 17.7 51.4781 18.016 51.8061 18.248C52.1341 18.48 52.5421 18.596 53.0301 18.596C53.3661 18.596 53.6621 18.548 53.9181 18.452C54.1821 18.348 54.4261 18.188 54.6501 17.972L55.6461 19.052C55.0381 19.748 54.1501 20.096 52.9821 20.096C52.2541 20.096 51.6101 19.956 51.0501 19.676C50.4901 19.388 50.0581 18.992 49.7541 18.488C49.4501 17.984 49.2981 17.412 49.2981 16.772C49.2981 16.14 49.4461 15.572 49.7421 15.068C50.0461 14.556 50.4581 14.16 50.9781 13.88C51.5061 13.592 52.0941 13.448 52.7421 13.448C53.3741 13.448 53.9461 13.584 54.4581 13.856C54.9701 14.128 55.3701 14.52 55.6581 15.032C55.9541 15.536 56.1021 16.124 56.1021 16.796ZM52.7541 14.864C52.3301 14.864 51.9741 14.984 51.6861 15.224C51.3981 15.464 51.2221 15.792 51.1581 16.208H54.3381C54.2741 15.8 54.0981 15.476 53.8101 15.236C53.5221 14.988 53.1701 14.864 52.7541 14.864ZM59.4004 13.688H61.0564V15.128H59.4484V20H57.5764V15.128H56.5804V13.688H57.5764V13.4C57.5764 12.664 57.7924 12.08 58.2244 11.648C58.6644 11.216 59.2804 11 60.0724 11C60.3524 11 60.6164 11.032 60.8644 11.096C61.1204 11.152 61.3324 11.236 61.5004 11.348L61.0084 12.704C60.7924 12.552 60.5404 12.476 60.2524 12.476C59.6844 12.476 59.4004 12.788 59.4004 13.412V13.688ZM66.153 19.688C65.969 19.824 65.741 19.928 65.469 20C65.205 20.064 64.925 20.096 64.629 20.096C63.861 20.096 63.265 19.9 62.841 19.508C62.425 19.116 62.217 18.54 62.217 17.78V15.128H61.221V13.688H62.217V12.116H64.089V13.688H65.697V15.128H64.089V17.756C64.089 18.028 64.157 18.24 64.293 18.392C64.437 18.536 64.637 18.608 64.893 18.608C65.189 18.608 65.441 18.528 65.649 18.368L66.153 19.688ZM70.9718 11.6C71.7158 11.6 72.3598 11.724 72.9038 11.972C73.4558 12.22 73.8798 12.572 74.1758 13.028C74.4718 13.484 74.6198 14.024 74.6198 14.648C74.6198 15.264 74.4718 15.804 74.1758 16.268C73.8798 16.724 73.4558 17.076 72.9038 17.324C72.3598 17.564 71.7158 17.684 70.9718 17.684H69.2798V20H67.3358V11.6H70.9718ZM70.8638 16.1C71.4478 16.1 71.8918 15.976 72.1958 15.728C72.4998 15.472 72.6518 15.112 72.6518 14.648C72.6518 14.176 72.4998 13.816 72.1958 13.568C71.8918 13.312 71.4478 13.184 70.8638 13.184H69.2798V16.1H70.8638ZM76.0077 11.6H79.8237C80.7357 11.6 81.5397 11.776 82.2357 12.128C82.9397 12.472 83.4837 12.96 83.8677 13.592C84.2597 14.224 84.4557 14.96 84.4557 15.8C84.4557 16.64 84.2597 17.376 83.8677 18.008C83.4837 18.64 82.9397 19.132 82.2357 19.484C81.5397 19.828 80.7357 20 79.8237 20H76.0077V11.6ZM79.7277 18.404C80.5677 18.404 81.2357 18.172 81.7317 17.708C82.2357 17.236 82.4877 16.6 82.4877 15.8C82.4877 15 82.2357 14.368 81.7317 13.904C81.2357 13.432 80.5677 13.196 79.7277 13.196H77.9517V18.404H79.7277ZM87.8658 13.16V15.38H91.7538V16.94H87.8658V20H85.9218V11.6H92.2698V13.16H87.8658Z" fill="#333333"/>
+<defs>
+<linearGradient id="paint0_linear" x1="37.8325" y1="-10.88" x2="-2.75654" y2="-8.08909" gradientUnits="userSpaceOnUse">
+<stop stop-color="#61DFAA"/>
+<stop offset="0.793217" stop-color="#2EB9B7"/>
+</linearGradient>
+<linearGradient id="paint1_linear" x1="0" y1="32" x2="36.5251" y2="25.5246" gradientUnits="userSpaceOnUse">
+<stop stop-color="#ED6E76"/>
+<stop offset="1" stop-color="#F2AA6F"/>
+</linearGradient>
+<linearGradient id="paint2_linear" x1="0" y1="32" x2="36.5251" y2="25.5246" gradientUnits="userSpaceOnUse">
+<stop stop-color="#4298E8"/>
+<stop offset="1" stop-color="#8044DB"/>
+</linearGradient>
+</defs>
+</svg>
+                    </a>
+                    <div class="menu_mob">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </div>
+                    <div class="header-menu-block">
+                        <ul class="header-menu">
+                            <li class="open-menu-btn"><a>All tools</a></li>
+                                                                                                <li class="">
+                                    	<a href="https://deftpdf.com/pdf-editor" target="_self">
+                                                                                Edit
+                                        
+                                    </a>
+                                                                        
+                                    </li>
+                                                                    <li class=" show_drop_down open-menu-btn2 ">
+                                    	<a>
+                                                                                Convert
+                                        
+                                    </a>
+                                                                       		<ul class="drop_down_menu">
+                                    	                                    		<li>
+                                    			<a href="https://deftpdf.com/pdf-to-jpg" target="_self">
+						                            						                            PDF to JPG
+                                    			</a>
+                                    		</li>
+                                    	                                    		<li>
+                                    			<a href="https://deftpdf.com/pdf-to-word" target="_self">
+						                            						                            PDF to Word
+                                    			</a>
+                                    		</li>
+                                    	                                    		<li>
+                                    			<a href="https://deftpdf.com/pdf-to-excel" target="_self">
+						                            						                            PDF to Excel
+                                    			</a>
+                                    		</li>
+                                    	                                    		<li>
+                                    			<a href="https://deftpdf.com/extract-text-from-pdf" target="_self">
+						                            						                            PDF to Text
+                                    			</a>
+                                    		</li>
+                                    	                                    		<li>
+                                    			<a href="https://deftpdf.com/jpg-to-pdf" target="_self">
+						                            						                            JPG to PDF
+                                    			</a>
+                                    		</li>
+                                    	                                    		<li>
+                                    			<a href="https://deftpdf.com/word-to-pdf" target="_self">
+						                            						                            Word to PDF
+                                    			</a>
+                                    		</li>
+                                    	                                    		<li>
+                                    			<a href="https://deftpdf.com/html-to-pdf" target="_self">
+						                            						                            HTML to PDF
+                                    			</a>
+                                    		</li>
+                                    	                                    		<li>
+                                    			<a href="https://deftpdf.com/ppt-to-pdf" target="_self">
+						                            						                            PPT to PDF
+                                    			</a>
+                                    		</li>
+                                    	                                    		<li>
+                                    			<a href="https://deftpdf.com/pdf-to-ppt" target="_self">
+						                            						                            PDF to PPT
+                                    			</a>
+                                    		</li>
+                                    	                                    		<li>
+                                    			<a href="https://deftpdf.com/pdf-to-epub" target="_self">
+						                            						                            PDF to EPUB
+                                    			</a>
+                                    		</li>
+                                    	                                    		<li>
+                                    			<a href="https://deftpdf.com/epub-to-pdf" target="_self">
+						                            						                            EPUB to PDF
+                                    			</a>
+                                    		</li>
+                                    	                                   		</ul>
+                                                                        
+                                    </li>
+                                                                    <li class="">
+                                    	<a href="https://deftpdf.com/pdf-editor-fill-sign" target="_self">
+                                                                                Fill &amp; Sign
+                                        
+                                    </a>
+                                                                        
+                                    </li>
+                                                                    <li class="">
+                                    	<a href="https://deftpdf.com/merge-pdf" target="_self">
+                                                                                Merge
+                                        
+                                    </a>
+                                                                        
+                                    </li>
+                                                                    <li class="">
+                                    	<a href="https://deftpdf.com/delete-pdf-pages" target="_self">
+                                                                                Delete Pages
+                                        
+                                    </a>
+                                                                        
+                                    </li>
+                                                                                    </ul>
+                        <ul class="header-lists">
+                                                            <li class="login-btn">
+                                    <a href="#">Login <img src="https://deftpdf.com/img/user-iccon.svg" alt="Alternate Text"/></a>
+                                </li>
+                                                    </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="megaMenu" style="" class="container-fluid mega-menu">
+            <div class="mega-menu-inner">
+                <button aria-label="Close" class="close" type="button"><span aria-hidden="true">×</span></button>
+                <div class="container">
+                    <div class="row">
+
+						
+						<div class="col col-sm-2 col-xs-6">
+							<ul class="popular">
+								<li class="header">
+									<strong>
+										POPULAR
+									</strong>
+								</li>
+																	<li>
+										<a href="https://deftpdf.com/pdf-editor" target="_self">
+                                                                                        Edit
+                                                                                            <div class="tooltip-block">
+                                                    Edit PDF files for free. Fill &amp; sign PDF. Add text, links, images and shapes. Edit existing PDF text. Annotate PDF
+                                                </div>
+                                            										</a>
+									</li>
+																	<li>
+										<a href="https://deftpdf.com/translate" target="_self">
+                                                                                        Translate
+                                                                                            <div class="tooltip-block">
+                                                    Translate PDF or DOCX file
+                                                </div>
+                                            										</a>
+									</li>
+																	<li>
+										<a href="https://deftpdf.com/crop-pdf" target="_self">
+                                                                                        Crop
+                                                                                            <div class="tooltip-block">
+                                                    Trim PDF margins, change PDF page size
+                                                </div>
+                                            										</a>
+									</li>
+																	<li>
+										<a href="https://deftpdf.com/split-pdf-down-the-middle" target="_self">
+                                                                                        Split in half
+                                                                                            <div class="tooltip-block">
+                                                    Split two page layout scans, A3 to double A4 or A4 to double A5
+                                                </div>
+                                            										</a>
+									</li>
+																	<li>
+										<a href="https://deftpdf.com/visually-combine-reorder-pdf" target="_self">
+                                                                                        Combine &amp; Reorder
+                                                                                            <div class="tooltip-block">
+                                                    Merge pages from different documents, reorder pages if needed
+                                                </div>
+                                            										</a>
+									</li>
+																	<li>
+										<a href="https://deftpdf.com/epub-to-pdf" target="_self">
+                                                                                        EPUB to PDF
+                                                                                            <div class="tooltip-block">
+                                                    EPUB to PDF
+                                                </div>
+                                            										</a>
+									</li>
+															</ul>
+						</div>
+
+
+
+                                                    <div class="col col-sm-2 col-xs-6">
+                                <ul class="popular">
+                                    <li class="header">
+                                        <strong>
+                                                                                        MERGE &amp; COMPRESS
+                                        </strong>
+                                    </li>
+                                                                                                                        <li>
+                                                <a href="https://deftpdf.com/alternate-mix-pdf" target="_self">
+                                                                                                        Alternate &amp; Mix
+                                                                                                            <div class="tooltip-block">
+                                                            Mixes pages from 2 or more documents, alternating between them
+                                                        </div>
+                                                                                                    </a>
+                                                                                            </li>
+                                                                                    <li>
+                                                <a href="https://deftpdf.com/merge-pdf" target="_self">
+                                                                                                        Merge
+                                                                                                            <div class="tooltip-block">
+                                                            Combine multiple PDFs and images into one
+                                                        </div>
+                                                                                                    </a>
+                                                                                            </li>
+                                                                                    <li>
+                                                <a href="https://deftpdf.com/visually-combine-reorder-pdf" target="_self">
+                                                                                                        Combine &amp; Reorder
+                                                                                                            <div class="tooltip-block">
+                                                            Merge pages from different documents, reorder pages if needed
+                                                        </div>
+                                                                                                    </a>
+                                                                                            </li>
+                                                                                    <li>
+                                                <a href="https://deftpdf.com/compress-pdf" target="_self">
+                                                                                                        Compress
+                                                                                                            <div class="tooltip-block">
+                                                            Reduce the size of your PDF
+                                                        </div>
+                                                                                                    </a>
+                                                                                            </li>
+                                                                                                            </ul>
+                            </div>
+                                                    <div class="col col-sm-2 col-xs-6">
+                                <ul class="popular">
+                                    <li class="header">
+                                        <strong>
+                                                                                        EDIT &amp; SIGN
+                                        </strong>
+                                    </li>
+                                                                                                                        <li>
+                                                <a href="https://deftpdf.com/bates-numbering-pdf" target="_self">
+                                                                                                        Bates Numbering
+                                                                                                            <div class="tooltip-block">
+                                                            Bates stamp multiple files at once
+                                                        </div>
+                                                                                                    </a>
+                                                                                            </li>
+                                                                                    <li>
+                                                <a href="https://deftpdf.com/crop-pdf" target="_self">
+                                                                                                        Crop
+                                                                                                            <div class="tooltip-block">
+                                                            Trim PDF margins, change PDF page size
+                                                        </div>
+                                                                                                    </a>
+                                                                                            </li>
+                                                                                    <li>
+                                                <a href="https://deftpdf.com/delete-pdf-pages" target="_self">
+                                                                                                        Delete Pages
+                                                                                                            <div class="tooltip-block">
+                                                            Remove pages from a PDF document
+                                                        </div>
+                                                                                                    </a>
+                                                                                            </li>
+                                                                                    <li>
+                                                <a href="https://deftpdf.com/pdf-editor" target="_self">
+                                                                                                        Edit
+                                                                                                            <div class="tooltip-block">
+                                                            Edit PDF files for free. Fill &amp; sign PDF. Add text, links, images and shapes. Edit existing PDF text. Annotate PDF
+                                                        </div>
+                                                                                                    </a>
+                                                                                            </li>
+                                                                                    <li>
+                                                <a href="https://deftpdf.com/pdf-editor-fill-sign" target="_self">
+                                                                                                        Fill &amp; Sign
+                                                                                                            <div class="tooltip-block">
+                                                            Fill and Sign PDF Online Free
+                                                        </div>
+                                                                                                    </a>
+                                                                                            </li>
+                                                                                    <li>
+                                                <a href="https://deftpdf.com/grayscale-pdf" target="_self">
+                                                                                                        Grayscale
+                                                                                                            <div class="tooltip-block">
+                                                            Convert PDF text and images to grayscale
+                                                        </div>
+                                                                                                    </a>
+                                                                                            </li>
+                                                                                    <li>
+                                                <a href="https://deftpdf.com/header-footer-pdf" target="_self">
+                                                                                                        Header &amp; Footer
+                                                                                                            <div class="tooltip-block">
+                                                            Apply page numbers or text labels to PDF files
+                                                        </div>
+                                                                                                    </a>
+                                                                                            </li>
+                                                                                    <li>
+                                                <a href="https://deftpdf.com/n-up-pdf" target="_self">
+                                                                                                        N-Up
+                                                                                                            <div class="tooltip-block">
+                                                            
+                                                        </div>
+                                                                                                    </a>
+                                                                                            </li>
+                                                                                    <li>
+                                                <a href="https://deftpdf.com/invoice-generator" target="_self">
+                                                                                                        Invoice Generator
+                                                                                                            <div class="tooltip-block">
+                                                            Invoice Generator
+                                                        </div>
+                                                                                                    </a>
+                                                                                                    <span class="label label-success">New</span>
+                                                                                            </li>
+                                                                                                            </ul>
+                            </div>
+                                                    <div class="col col-sm-2 col-xs-6">
+                                <ul class="popular">
+                                    <li class="header">
+                                        <strong>
+                                                                                        
+                                        </strong>
+                                    </li>
+                                                                                                                        <li>
+                                                <a href="https://deftpdf.com/encrypt-pdf" target="_self">
+                                                                                                        Protect
+                                                                                                            <div class="tooltip-block">
+                                                            Protect file with password and permissions
+                                                        </div>
+                                                                                                    </a>
+                                                                                            </li>
+                                                                                    <li>
+                                                <a href="https://deftpdf.com/rotate-pdf-pages" target="_self">
+                                                                                                        Rotate
+                                                                                                            <div class="tooltip-block">
+                                                            Rotate and save PDF pages permanently
+                                                        </div>
+                                                                                                    </a>
+                                                                                            </li>
+                                                                                    <li>
+                                                <a href="https://deftpdf.com/repair-pdf" target="_self">
+                                                                                                        Repair
+                                                                                                            <div class="tooltip-block">
+                                                            Recover data from a corrupted or damaged PDF document
+                                                        </div>
+                                                                                                    </a>
+                                                                                            </li>
+                                                                                    <li>
+                                                <a href="https://deftpdf.com/resize-pdf" target="_self">
+                                                                                                        Resize
+                                                                                                            <div class="tooltip-block">
+                                                            Add page margins and padding, Change PDF page size
+                                                        </div>
+                                                                                                    </a>
+                                                                                            </li>
+                                                                                    <li>
+                                                <a href="https://deftpdf.com/pdf-editor-fill-sign" target="_self">
+                                                                                                        Sign
+                                                                                                            <div class="tooltip-block">
+                                                            Fill and Sign PDF Online Free
+                                                        </div>
+                                                                                                    </a>
+                                                                                            </li>
+                                                                                    <li>
+                                                <a href="https://deftpdf.com/unlock-pdf" target="_self">
+                                                                                                        Unlock
+                                                                                                            <div class="tooltip-block">
+                                                            Remove restrictions and password from PDF files
+                                                        </div>
+                                                                                                    </a>
+                                                                                            </li>
+                                                                                    <li>
+                                                <a href="https://deftpdf.com/watermark-pdf" target="_self">
+                                                                                                        Watermark
+                                                                                                            <div class="tooltip-block">
+                                                            Add image or text watermark to PDF documents
+                                                        </div>
+                                                                                                    </a>
+                                                                                            </li>
+                                                                                    <li>
+                                                <a href="https://deftpdf.com/translate" target="_self">
+                                                                                                        Translate
+                                                                                                            <div class="tooltip-block">
+                                                            Translate PDF or DOCX file
+                                                        </div>
+                                                                                                    </a>
+                                                                                                    <span class="label label-success">New</span>
+                                                                                            </li>
+                                                                                                            </ul>
+                            </div>
+                                                    <div class="col col-sm-2 col-xs-6">
+                                <ul class="popular">
+                                    <li class="header">
+                                        <strong>
+                                                                                        CONVERT
+                                        </strong>
+                                    </li>
+                                                                                                                        <li>
+                                                <a href="https://deftpdf.com/pdf-to-jpg" target="_self">
+                                                                                                        PDF to JPG
+                                                                                                            <div class="tooltip-block">
+                                                            Get PDF pages converted to JPG, PNG or TIFF images
+                                                        </div>
+                                                                                                    </a>
+                                                                                            </li>
+                                                                                    <li>
+                                                <a href="https://deftpdf.com/pdf-to-word" target="_self">
+                                                                                                        PDF to Word
+                                                                                                            <div class="tooltip-block">
+                                                            Creates a Microsoft Word .docx with text and images from PDF, optimizing for legibility
+                                                        </div>
+                                                                                                    </a>
+                                                                                            </li>
+                                                                                    <li>
+                                                <a href="https://deftpdf.com/pdf-to-excel" target="_self">
+                                                                                                        PDF to Excel
+                                                                                                            <div class="tooltip-block">
+                                                            Convert PDF to Excel or CSV online for free. Extract table data from PDF
+                                                        </div>
+                                                                                                    </a>
+                                                                                            </li>
+                                                                                    <li>
+                                                <a href="https://deftpdf.com/pdf-to-ppt" target="_self">
+                                                                                                        PDF to PPT
+                                                                                                            <div class="tooltip-block">
+                                                            Convert PDF to PPT
+                                                        </div>
+                                                                                                    </a>
+                                                                                            </li>
+                                                                                    <li>
+                                                <a href="https://deftpdf.com/pdf-to-epub" target="_self">
+                                                                                                        PDF to EPUB
+                                                                                                            <div class="tooltip-block">
+                                                            Convert PDF to EPUB
+                                                        </div>
+                                                                                                    </a>
+                                                                                            </li>
+                                                                                    <li>
+                                                <a href="https://deftpdf.com/extract-text-from-pdf" target="_self">
+                                                                                                        PDF to Text
+                                                                                                            <div class="tooltip-block">
+                                                            Copies all text from the PDF document and extracts it to a separate text file
+                                                        </div>
+                                                                                                    </a>
+                                                                                            </li>
+                                                                                    <li>
+                                                <a href="https://deftpdf.com/jpg-to-pdf" target="_self">
+                                                                                                        JPG to PDF
+                                                                                                            <div class="tooltip-block">
+                                                            Convert Images to PDF
+                                                        </div>
+                                                                                                    </a>
+                                                                                            </li>
+                                                                                    <li>
+                                                <a href="https://deftpdf.com/ppt-to-pdf" target="_self">
+                                                                                                        PPT to PDF
+                                                                                                            <div class="tooltip-block">
+                                                            Convert PPT/PPTX to PDF
+                                                        </div>
+                                                                                                    </a>
+                                                                                            </li>
+                                                                                    <li>
+                                                <a href="https://deftpdf.com/word-to-pdf" target="_self">
+                                                                                                        Word to PDF
+                                                                                                            <div class="tooltip-block">
+                                                            Creates a PDF document from Microsoft Word .docx
+                                                        </div>
+                                                                                                    </a>
+                                                                                            </li>
+                                                                                    <li>
+                                                <a href="https://deftpdf.com/html-to-pdf" target="_self">
+                                                                                                        HTML to PDF
+                                                                                                            <div class="tooltip-block">
+                                                            Convert web pages or HTML files to PDF documents
+                                                        </div>
+                                                                                                    </a>
+                                                                                            </li>
+                                                                                    <li>
+                                                <a href="https://deftpdf.com/ocr-pdf" target="_self">
+                                                                                                        OCR PDF
+                                                                                                            <div class="tooltip-block">
+                                                            Convert web pages or HTML files to PDF documents
+                                                        </div>
+                                                                                                    </a>
+                                                                                                    <span class="label label-success">New</span>
+                                                                                            </li>
+                                                                                    <li>
+                                                <a href="https://deftpdf.com/epub-to-pdf" target="_self">
+                                                                                                        EPUB to PDF
+                                                                                                            <div class="tooltip-block">
+                                                            EPUB to PDF
+                                                        </div>
+                                                                                                    </a>
+                                                                                            </li>
+                                                                                                            </ul>
+                            </div>
+                                                    <div class="col col-sm-2 col-xs-6">
+                                <ul class="popular">
+                                    <li class="header">
+                                        <strong>
+                                                                                        SPLIT
+                                        </strong>
+                                    </li>
+                                                                                                                        <li>
+                                                <a href="https://deftpdf.com/extract-pdf-pages" target="_self">
+                                                                                                        Extract Pages
+                                                                                                            <div class="tooltip-block">
+                                                            Get a new document containing only the desired pages
+                                                        </div>
+                                                                                                    </a>
+                                                                                            </li>
+                                                                                    <li>
+                                                <a href="https://deftpdf.com/split-pdf-by-outline" target="_self">
+                                                                                                        Split by bookmarks
+                                                                                                            <div class="tooltip-block">
+                                                            Extract chapters to separate documents based on the bookmarks in the table of contents
+                                                        </div>
+                                                                                                    </a>
+                                                                                            </li>
+                                                                                    <li>
+                                                <a href="https://deftpdf.com/split-pdf-down-the-middle" target="_self">
+                                                                                                        Split in half
+                                                                                                            <div class="tooltip-block">
+                                                            Split two page layout scans, A3 to double A4 or A4 to double A5
+                                                        </div>
+                                                                                                    </a>
+                                                                                            </li>
+                                                                                    <li>
+                                                <a href="https://deftpdf.com/split-pdf-by-size" target="_self">
+                                                                                                        Split by size
+                                                                                                            <div class="tooltip-block">
+                                                            Get multiple smaller documents with specific file sizes
+                                                        </div>
+                                                                                                    </a>
+                                                                                            </li>
+                                                                                    <li>
+                                                <a href="https://deftpdf.com/split-pdf-by-text" target="_self">
+                                                                                                        Split by text
+                                                                                                            <div class="tooltip-block">
+                                                            
+                                                        </div>
+                                                                                                    </a>
+                                                                                            </li>
+                                                                                    <li>
+                                                <a href="https://deftpdf.com/split-pdf" target="_self">
+                                                                                                        Split PDF by pages
+                                                                                                            <div class="tooltip-block">
+                                                            Convert PDF to PPT
+                                                        </div>
+                                                                                                    </a>
+                                                                                            </li>
+                                                                                                            </ul>
+                            </div>
+                        
+                        <div class="menu-serch">
+                            <input id="search_tool_input" placeholder="Quickly find a tool" type="text">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+    </header>
+
+    <div class="overley-bg">
+    </div>
+	<div class="pdf_preloader">
+	    <div class="lds-dual-ring"></div>
+	</div>
+    	
+	  
+	<script src="https://js.stripe.com/v3/"></script>
+	
+	
+	<script>var awsk1='AKIAZZVBETK574AVDHH6';var awsk2='0utTUU6jucvA7ajgtCGu+Ma27vrXOpe/1dMEnzJb';var stripe_pub='pk_live_oongGimcz0S4LbRXR2dKadPO006dyGliNU';</script>
+	
+    <div class="upload-top-info before_upload">
+    	<div class="container">
+    		<div class="app-title">
+    			<div class="wrapper">
+    				<h1>Translate PDF or Word File</h1>
+    				<p>Instantly Translate DOCX, PPTX, XLSX, ODT, ODS, ODP, PDF, SRT, TXT files</p>
+    			</div>
+    		</div>
+    		<div class="app-welcome">
+    			<form action="#" id="drop_zone">
+	            	<input type="hidden" value="BHJ96giHQQL9hYAmnRo86nmgTasrsvobs53Wj6Hm" id="editor_csrf">    			    			
+    				
+					<h3>UPLOAD <strong>FILE</strong></h3>
+					<div class="upload-btn-wrap">
+						<div class="upload-button">
+							<span>
+								Upload document
+							</span>
+							<input class="user_pdf" type="file" accept=".docx, .xls, .xlsx, .txt, .srt, .ods, .odp, .odt, .pdf, .pptx, application/pdf, application/vnd.openxmlformats-officedocument.wordprocessingml.document, application/vnd.openxmlformats-officedocument.spreadsheetml.sheet, application/vnd.openxmlformats-officedocument.presentationml.presentation,application/vnd.openxmlformats-officedocument.wordprocessingml.document, application/vnd.oasis.opendocument.text, application/vnd.oasis.opendocument.spreadsheet, application/vnd.oasis.opendocument.presentation, application/x-subrip,text/plain, application/vnd.ms-excel">
+						</div>
+						<button class="dropdown-toggle-btn" type="button">
+							<i class="fas fa-caret-down"></i>
+						</button>
+						<ul class="dropdown-menu-upload">
+							<li><a class="drpbox-chooser" href="#" id="drpbox-chooser"><i class="fab fa-dropbox icon"></i> Dropbox</a></li>
+							<li><a class="gdrive-chooser" href="#" id="gdrive-chooser"><img class="icon" src="/img/xgdrive.png.pagespeed.ic.-K4CeF3xuC.webp" alt=""> Google Drive</a></li>
+							<li><a class="weburl-chooser" href="#"><i class="fas fa-link icon"></i> Web Address (URL)</a></li>
+						</ul>
+					</div>
+					
+					<div class="upload-img multiple_formats_upload" style="flex-wrap: wrap; padding-top: 20px;">
+    					<div>
+    						<img src="https://deftpdf.com/img/translate_icons/DOCX.svg" alt="docx">
+							<img src="https://deftpdf.com/img/translate_icons/PPTX.svg" alt="pptx">
+							<img src="https://deftpdf.com/img/translate_icons/XLSX.svg" alt="xlsx">
+							<img src="https://deftpdf.com/img/translate_icons/ODT.svg" alt="odt">
+							<img src="https://deftpdf.com/img/translate_icons/ODS.svg" alt="ods">
+    					</div>
+    					
+    					<div>
+    						<img src="https://deftpdf.com/img/translate_icons/PDF.svg" alt="pdf">
+							<img src="https://deftpdf.com/img/translate_icons/ODP.svg" alt="odp">
+							<img src="https://deftpdf.com/img/translate_icons/SRT.svg" alt="srt">
+							<img src="https://deftpdf.com/img/translate_icons/TXT.svg" alt="txt">
+    					</div> 					
+    				</div>
+
+    			</form>
+    			<div class="upload-welcom-descr">
+    				Pricing: First 10000 characters are Free, $5 per 10000 characters after that
+    			</div>
+    		</div>
+    	</div>
+
+
+		  
+
+    	
+    </div>
+    <div id="editor"></div>
+
+
+
+	<section class="s-translate after_upload hidden">
+		<div class="translate-left t-block">
+			<div class="translate-page-slider">
+
+				<section class="pdf_files_slider pages_preview_block" id="pages_previews_here">
+
+				</section>
+
+				<div class="credit_card_popup_wrp one">
+					<div class="credit_card_popup">
+						<div class="popup_header">
+						<span class="mobile_close_button">
+							<img src="img/close.svg" alt="">
+						</span>
+							<h3>Credit card info</h3>
+							<div class="icons">
+								<img src="img/xpopup_creditcard_header_img_1.png.pagespeed.ic.QEgoCFvl2H.webp" alt="">
+								<img src="img/xpopup_creditcard_header_img_2.png.pagespeed.ic.5VxajgRsas.webp" alt="">
+								<img src="img/xpopup_creditcard_header_img_3.png.pagespeed.ic.MQiagZ0Yib.webp" alt="">
+							</div>
+						</div>
+						<div class="popup_content">
+							<form id="stripe_form">
+								<div class="credit_card_input_row two_col">
+								    <div class="col">
+								        <label>Full Name:</label>
+								        <input type="text" name="name" id="name" class="credit_card_inputs" placeholder="Full name" required>
+								    </div>
+								    <div class="col">
+								        <label>Email address:</label>
+								        <input type="email" id="email" name="email" type="email" class="credit_card_inputs" placeholder="Email address" required>
+								    </div>
+								</div>
+								<div class="credit_card_input_row">
+								    <label>Credit or debit card:</label>
+								    
+								    
+								    <div class="credit_card_info_inputs_wrp" style="padding: 0; padding-left: 17px;">
+									    <div id="card-element" class="field"></div>
+								    </div>
+								</div>
+								<button class="button-green submit_payment_button">Submit Payment</button>
+							</form>
+						</div>
+					</div>
+					<div class="credit_card_close_wrp"></div>
+				</div>
+				
+				
+				<div class="credit_card_popup_wrp two">
+					<div class="credit_card_popup succesfull">
+						<div class="popup_content">
+							<img src="img/popup_credit_card__checked.svg" alt="">
+							<h3>Your payment was successfull</h3>
+							<a href="" class="button-green popup_credit_continue">Continue</a>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="translate-left-bottom-panel">
+				<div class="translate-upload-pdf hidden">
+					<h3>Upload another PDF</h3>
+						<div class="btn-wrap">
+							<a href="#" class="button-green">Upload file</a>
+					</div>
+				</div>
+				<div class="translate-block-items-wrap">
+					<div class="preview_title">Preview</div>
+					<div class="translate-block-items" id="thumbs_block">
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="translate-right">
+			<div class="translate-right-inner">
+				<div class="bill-box"><div class="img-wrap" style="min-height: 50px;">
+					
+					</div></div>
+			
+				<div class="before_translate translate-action-box show show_if_free_translate">
+					<div class="icon"><img src="img/translator-icon.svg" alt=""></div>
+					<p><span class='total_chars'>0</span> symbols in document</p>
+					<div class="btn-wrap">
+						<a href="#" class="button-green translate_button hidden show_if_free_translate" id="translate_all">Translate</a>
+					</div>
+				</div>
+				
+				<div class="before_translate pay-and-translate-action-box payment_translate show_if_paid_translate hidden">
+					<div class="icon"><img src="img/translator-icon.svg" alt=""></div>
+					<p><span class='total_chars'>0</span> symbols in document</p>
+					
+					<ul class="blocked_translate hidden">
+						<li><h3>You have reached the free trial limit:</h3></li>
+						<li>Pay to translate more than one file every 5 hours</li>
+						<li>Comeback in 5 hrs and translate for free (max 20000 symbols)</li>
+						<li>Translation Price: $<span class="pricing">0</span></li>
+						<li>(<span class="price_count_1">0</span>$ per <span class="price_count_2"></span> symbols)</li>
+						<li><span id="c_timer"></span></li>
+						
+					</ul>
+					
+					<ul class="not_blocked_transalte">
+						<li>Exceeds our free tier (<span class="free_count"></span>).</li>
+						<li>Translation Price: $<span class="pricing">0</span></li>
+						<li>(<span class="price_count_1">0</span>$ per <span class="price_count_2"></span> symbols)</li>
+					</ul>
+					
+					<div class="btn-wrap">
+						<a href="#" class="button-green creditcard_pop_open">Pay and translate</a>
+					</div>
+				</div>
+
+
+				<div class="translate_proggress translated-doc-box loading-in-process hidden">
+					<div class="translated-in-process">
+						<div class="img-loading">
+							<img src="img/spinner-of-dots.svg" alt="">
+						</div>
+						<p class="translate_percent_progress"><span class='total_translated'>0</span> of <span class='total_chars'></span> symbols translated</p>
+					</div>
+				</div>
+
+
+				<div class="after_translate translated-doc-box hidden download_outer" style="position: relative;">
+					<div class="translated-ready">
+						<div class="img-ready">
+							<img src="img/process-ready-icon.svg" alt="">
+						</div>
+						<p>Your document has been translated</p>
+					</div>
+					<div class="btn-wrap">
+						<a href="#" class="button-green" id="download_file">Create & Download</a>
+					</div>
+					
+					<div class="ss" style="text-align: center; font-size: 15px; line-height: 22px; margin-top: 30px;">
+						Does this site help you save time or money?<br>
+						Say thanks by sharing the website :)            
+					</div>
+
+				    <ul class="result-socials">
+				        <li>
+				            <a target="_blank" href="https://www.facebook.com/sharer.php?u=https://deftpdf.com">
+				                <img src="/img/soc-facebook.svg" alt="Share on Facebook">
+				            </a>
+				        </li>
+				        <li>
+				            <a target="_blank" href="https://twitter.com/intent/tweet?text=Easy to use Online PDF editor https://deftpdf.com @DeftPDF">
+				                <img src="/img/soc-twitter.svg" alt="Share on Twitter">
+				            </a>
+				        </li>
+				        <li>
+				            <a target="_blank" href="https://plus.google.com/share?url=https://deftpdf.com">
+				                <img src="/img/soc-google-plus.svg" alt="Share on Google Plus">
+				            </a>
+				        </li>
+				        <li>
+				            <a href="mailto:?&subject=Easy to use Online PDF editor DeftPDF&body=https://deftpdf.com">
+				                <img src="/img/soc-email.svg" alt="">
+				            </a>
+				        </li>
+				        <!-- <li>
+							<div class="fb-like" data-href="https://facebook.com/deftpdf" data-width="100" data-layout="button" data-action="like" data-size="large" data-show-faces="false" data-share="false"></div>                
+				        </li> -->
+				        <li>
+				            <a href="#" onclick="window.open('https://www.linkedin.com/shareArticle?mini=true&url=https%3A//deftpdf.com/&title=Deftpdf&summary=&source=', 'Share', 'width=500,height=300')">
+				            <img src="/img/linkedin-button.svg" alt="">
+				        </a>
+							<!-- <script src="https://platform.linkedin.com/in.js" type="text/javascript"> lang: en_US</script>
+							<script type="IN/FollowCompany" data-id="19133308" data-counter="bottom"></script>    -->
+				        </li>
+				        
+
+
+
+				    </ul>
+
+					
+				</div>
+				<div class="t-right-bottom-panel">
+				
+					<div class="t-upload-another-pdf">
+						<div class="debug_outer hide_after_start hidden">
+							<label>
+							<input id="debug_text" type="checkbox">Debug(return original text)
+							</label>
+						</div>
+						<div class="document_render_proccess" style="margin-top: 27px;">
+							Processing page <span style="font-weight: bold; color: #7a4cdc; font-size: 18px;" class='current_page'>0</span> out of <span style="font-weight: bold; color: #7a4cdc; font-size: 18px;" class="total_pages">0</span>
+						</div>
+						
+						<div class="select-group-item hide_after_start language_choise hidden">
+							<select class="source_language lang_source">
+							<option value="af">Afrikaans</option>
+							<option value="sq">Albanian</option>
+							<option value="am">Amharic</option>
+							<option value="hy">Armenian</option>
+							<option value="az">Azerbaijani</option>
+							<option value="eu">Basque</option>
+							<option value="be">Belarusian</option>
+							<option value="bn">Bengali</option>
+							<option value="bs">Bosnian</option>
+							<option value="bg">Bulgarian</option>
+							<option value="ca">Catalan</option>
+							<option value="ceb">Cebuano</option>
+							<option value="ny">Chichewa</option>
+							<option value="zh-CN">Chinese (Simplified)</option>
+							<option value="zh-TW">Chinese (Traditional)</option>
+							<option value="co">Corsican</option>
+							<option value="hr">Croatian</option>
+							<option value="cs">Czech</option>
+							<option value="da">Danish</option>
+							<option value="nl">Dutch</option>
+							<option value="en" selected>English</option>
+							<option value="eo">Esperanto</option>
+							<option value="et">Estonian</option>
+							<option value="tl">Filipino</option>
+							<option value="fi">Finnish</option>
+							<option value="fr">French</option>
+							<option value="fy">Frisian</option>
+							<option value="gl">Galician</option>
+							<option value="ka">Georgian</option>
+							<option value="de">German</option>
+							<option value="el">Greek</option>
+							<option value="gu">Gujarati</option>
+							<option value="ht">Haitian Creole</option>
+							<option value="ha">Hausa</option>
+							<option value="haw">Hawaiian</option>
+							<option value="iw">Hebrew</option>
+							<option value="hi">Hindi</option>
+							<option value="hmn">Hmong</option>
+							<option value="hu">Hungarian</option>
+							<option value="is">Icelandic</option>
+							<option value="ig">Igbo</option>
+							<option value="id">Indonesian</option>
+							<option value="ga">Irish</option>
+							<option value="it">Italian</option>
+							<option value="ja">Japanese</option>
+							<option value="jw">Javanese</option>
+							<option value="kn">Kannada</option>
+							<option value="kk">Kazakh</option>
+							<option value="km">Khmer</option>
+							<option value="ko">Korean</option>
+							<option value="ku">Kurdish (Kurmanji)</option>
+							<option value="ky">Kyrgyz</option>
+							<option value="lo">Lao</option>
+							<option value="la">Latin</option>
+							<option value="lv">Latvian</option>
+							<option value="lt">Lithuanian</option>
+							<option value="lb">Luxembourgish</option>
+							<option value="mk">Macedonian</option>
+							<option value="mg">Malagasy</option>
+							<option value="ms">Malay</option>
+							<option value="ml">Malayalam</option>
+							<option value="mt">Maltese</option>
+							<option value="mi">Maori</option>
+							<option value="mr">Marathi</option>
+							<option value="mn">Mongolian</option>
+							<option value="my">Myanmar (Burmese)</option>
+							<option value="ne">Nepali</option>
+							<option value="no">Norwegian</option>
+							<option value="ps">Pashto</option>
+							<option value="fa">Persian</option>
+							<option value="pl">Polish</option>
+							<option value="pt">Portuguese</option>
+							<option value="pa">Punjabi</option>
+							<option value="ro">Romanian</option>
+							<option value="ru">Russian</option>
+							<option value="sm">Samoan</option>
+							<option value="gd">Scots Gaelic</option>
+							<option value="sr">Serbian</option>
+							<option value="st">Sesotho</option>
+							<option value="sn">Shona</option>
+							<option value="sd">Sindhi</option>
+							<option value="si">Sinhala</option>
+							<option value="sk">Slovak</option>
+							<option value="sl">Slovenian</option>
+							<option value="so">Somali</option>
+							<option value="es">Spanish</option>
+							<option value="su">Sundanese</option>
+							<option value="sw">Swahili</option>
+							<option value="sv">Swedish</option>
+							<option value="tg">Tajik</option>
+							<option value="ta">Tamil</option>
+							<option value="te">Telugu</option>
+							<option value="th">Thai</option>
+							<option value="tr">Turkish</option>
+							<option value="uk">Ukrainian</option>
+							<option value="ur">Urdu</option>
+							<option value="uz">Uzbek</option>
+							<option value="vi">Vietnamese</option>
+							<option value="cy">Welsh</option>
+							<option value="xh">Xhosa</option>
+							<option value="yi">Yiddish</option>
+							<option value="yo">Yoruba</option>
+							<option value="zu">Zulu</option>
+							</select>
+							
+							<span class="language_choise hidden">to</span>
+							
+							<select class="target_language language_choise hidden">
+								<option value="af">Afrikaans</option>
+								<option value="sq">Albanian</option>
+								<option value="am">Amharic</option>
+
+
+								<option value="hy">Armenian</option>
+								<option value="az">Azerbaijani</option>
+								<option value="eu">Basque</option>
+								<option value="be">Belarusian</option>
+								<option value="bn">Bengali</option>
+								<option value="bs">Bosnian</option>
+								<option value="bg">Bulgarian</option>
+								<option value="ca">Catalan</option>
+								<option value="ceb">Cebuano</option>
+								<option value="ny">Chichewa</option>
+								<option value="zh-CN">Chinese (Simplified)</option>
+								<option value="zh-TW">Chinese (Traditional)</option>
+								<option value="co">Corsican</option>
+								<option value="hr">Croatian</option>
+								<option value="cs">Czech</option>
+								<option value="da">Danish</option>
+								<option value="nl">Dutch</option>
+								<option value="en">English</option>
+								<option value="eo">Esperanto</option>
+								<option value="et">Estonian</option>
+								<option value="tl">Filipino</option>
+								<option value="fi">Finnish</option>
+								<option value="fr">French</option>
+								<option value="fy">Frisian</option>
+								<option value="gl">Galician</option>
+								<option value="ka">Georgian</option>
+								<option value="de">German</option>
+								<option value="el">Greek</option>
+								<option value="gu">Gujarati</option>
+								<option value="ht">Haitian Creole</option>
+								<option value="ha">Hausa</option>
+								<option value="haw">Hawaiian</option>
+								<option value="iw">Hebrew</option>
+								<option value="hi">Hindi</option>
+								<option value="hmn">Hmong</option>
+								<option value="hu">Hungarian</option>
+								<option value="is">Icelandic</option>
+								<option value="ig">Igbo</option>
+								<option value="id">Indonesian</option>
+								<option value="ga">Irish</option>
+								<option value="it">Italian</option>
+								<option value="ja">Japanese</option>
+								<option value="jw">Javanese</option>
+								<option value="kn">Kannada</option>
+								<option value="kk">Kazakh</option>
+								<option value="km">Khmer</option>
+								<option value="ko">Korean</option>
+								<option value="ku">Kurdish (Kurmanji)</option>
+								<option value="ky">Kyrgyz</option>
+								<option value="lo">Lao</option>
+								<option value="la">Latin</option>
+								<option value="lv">Latvian</option>
+								<option value="lt">Lithuanian</option>
+								<option value="lb">Luxembourgish</option>
+								<option value="mk">Macedonian</option>
+								<option value="mg">Malagasy</option>
+								<option value="ms">Malay</option>
+								<option value="ml">Malayalam</option>
+								<option value="mt">Maltese</option>
+								<option value="mi">Maori</option>
+								<option value="mr">Marathi</option>
+								<option value="mn">Mongolian</option>
+								<option value="my">Myanmar (Burmese)</option>
+								<option value="ne">Nepali</option>
+								<option value="no">Norwegian</option>
+								<option value="ps">Pashto</option>
+								<option value="fa">Persian</option>
+								<option value="pl">Polish</option>
+								<option value="pt">Portuguese</option>
+								<option value="pa">Punjabi</option>
+								<option value="ro">Romanian</option>
+								<option value="ru" selected>Russian</option>
+								<option value="sm">Samoan</option>
+								<option value="gd">Scots Gaelic</option>
+								<option value="sr">Serbian</option>
+								<option value="st">Sesotho</option>
+								<option value="sn">Shona</option>
+								<option value="sd">Sindhi</option>
+								<option value="si">Sinhala</option>
+								<option value="sk">Slovak</option>
+								<option value="sl">Slovenian</option>
+								<option value="so">Somali</option>
+								<option value="es">Spanish</option>
+								<option value="su">Sundanese</option>
+								<option value="sw">Swahili</option>
+								<option value="sv">Swedish</option>
+								<option value="tg">Tajik</option>
+								<option value="ta">Tamil</option>
+								<option value="te">Telugu</option>
+								<option value="th">Thai</option>
+								<option value="tr">Turkish</option>
+								<option value="uk">Ukrainian</option>
+								<option value="ur">Urdu</option>
+								<option value="uz">Uzbek</option>
+								<option value="vi">Vietnamese</option>
+								<option value="cy">Welsh</option>
+								<option value="xh">Xhosa</option>
+								<option value="yi">Yiddish</option>
+								<option value="yo">Yoruba</option>
+								<option value="zu">Zulu</option>
+							</select>
+						</div>
+
+
+						<div class="translate-upload-pdf upload_another_pdf hidden">
+							<div class="btn-wrap">
+								<a style="margin-top: 30px;" href="/translate" class="button-green">Start over</a>
+							</div>
+						</div>
+
+
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+            <section class="how-it-works before_upload">
+                                                <div class="title-section"><h2>How to translate your PDF files</h2></div>
+                
+
+
+				  
+
+
+                <div class="container centered">
+                                        <p class="title-description">Translate your PDF files in just a few steps – Upload, select language and convert! You can translate any documents in English, Arabic, Czech, German, Spanish, French, Italian, Japanese, Portuguese, Russian, Turkish or Chinese.</p>
+                                                            <div class="post">
+                        <h1 style="text-align:justify"><span style="font-size:14px"><span style="font-family:Verdana,Geneva,sans-serif"><strong>1. Upload your PDF file</strong></span></span></h1>
+
+<h1 style="margin-left:40px; text-align:justify"><span style="font-size:14px"><span style="font-family:Verdana,Geneva,sans-serif">You can be assured that your files are safely uploaded over an encrypted connection. The files&nbsp;will be permanently deleted after processing.</span></span></h1>
+
+<h1 style="margin-left:40px; text-align:justify">&nbsp;</h1>
+
+<ul style="margin-left:40px">
+	<li style="text-align:justify"><span style="font-size:14px"><span style="font-family:Verdana,Geneva,sans-serif">To upload files from your computer, click &rdquo;<strong>Upload PDF file&rdquo; </strong>and select the file OR you can drag and drop the document to the page.</span></span></li>
+	<li>
+	<p style="text-align:justify"><span style="font-size:14px"><span style="font-family:Verdana,Geneva,sans-serif">To upload from Dropbox / Google Drive / Website URL, click the small arrow beside &ldquo;<strong>upload PDF file&rdquo;</strong> to expand the drop-down list, select your preferred source and insert the file from your online account. </span></span> 
+	</li>
+</ul>
+
+<p style="text-align:center"><span style="font-size:14px"><img alt="Deft PDF file upload" src="https://deftpdf.com/storage/uploads/86hjS9h9LjE1QbgEplrqGyrgFvevRvweumU2clFu.gif.pagespeed.ce.5L9PKwiO1P.gif" style="height:335px; width:471px"/></span> <p>
+									<section style="width: 800px; height: 90px; margin: 0 auto;">
+										<ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-3312770701892086" data-ad-slot="9030255556" data-ad-format="auto" data-full-width-responsive="true"></ins>
+										<script>(adsbygoogle=window.adsbygoogle||[]).push({});</script>
+
+									</section>							
+							</p> 
+
+<p style="margin-left:48px">&nbsp; 
+
+<h1 style="text-align:justify"><span style="font-size:14px"><span style="font-family:Verdana,Geneva,sans-serif"><strong>2. Select the language preferred</strong></span></span></h1>
+
+<p style="margin-left:40px; text-align:justify"><span style="font-size:14px"><span style="font-family:Verdana,Geneva,sans-serif">Once the document is uploaded, select the current language of the document and the language you wish to translate it to. </span></span> 
+
+<p><img alt="DeftPDF translate PDF tool" src="https://deftpdf.com/storage/uploads/800x341xLps0KThSb4Appv3FJpSYXmUYl7B7xtu1gWhoKyVY.png.pagespeed.ic.wJ8nf12FRe.webp" style="float:left; height:341px; width:800px"/><strong style="font-family:Verdana,Geneva,sans-serif; font-size:14px">3. Process</strong> <p>
+									<section style="width: 800px; height: 90px; margin: 0 auto;">
+										<ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-3312770701892086" data-ad-slot="9030255556" data-ad-format="auto" data-full-width-responsive="true"></ins>
+										<script>(adsbygoogle=window.adsbygoogle||[]).push({});</script>
+
+									</section>							
+							</p> 
+
+<p style="margin-left:40px; text-align:justify"><span style="font-family:Verdana, Geneva, sans-serif"><span style="font-size:14px">Click "Translate" to process the document. When processing is done, there will be a preview of the translated document which keeps the same layout as the original.&nbsp;</span></span> 
+
+<p style="text-align:center"><span style="font-family:Verdana, Geneva, sans-serif"><span style="font-size:14px"><img alt="DeftPDF translate processing" src="https://deftpdf.com/storage/uploads/800x340x1EPxxdVsOMk3F11p10qrSfak4Iccom8IfSAJ5a9I.png.pagespeed.ic.nGMNzoeISC.webp" style="height:340px; width:800px"/></span></span> 
+
+<h1 style="text-align:justify"><span style="font-size:14px"><span style="font-family:Verdana,Geneva,sans-serif"><strong>4. Download and Save</strong></span></span></h1>
+
+<p style="margin-left:40px; text-align:justify"><span style="font-size:14px"><span style="font-family:Verdana,Geneva,sans-serif">Download your document&nbsp;and save it on your computer by simply clicking "Download." An option to "start over" will be given, which allows you to go back to the beginning of the Translate tool in case you want to translate another document. </span></span> <p>
+									<section style="width: 800px; height: 90px; margin: 0 auto;">
+										<ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-3312770701892086" data-ad-slot="9030255556" data-ad-format="auto" data-full-width-responsive="true"></ins>
+										<script>(adsbygoogle=window.adsbygoogle||[]).push({});</script>
+
+									</section>							
+							</p> 
+
+<p style="text-align:center"><span style="font-size:14px"><span style="font-family:Verdana,Geneva,sans-serif"><img alt="DeftPDF download free translated PDF" src="https://deftpdf.com/storage/uploads/800x307xGkmDTX8SwJpxkY2vIP1apGYalpCxENpOv0QXydZl.png.pagespeed.ic.aUUsC7oB-I.webp" style="height:307px; width:800px"/></span></span>
+                    </div>
+                                    </div>
+                    </section>
+    
+
+    
+    <div id="tempo">
+    
+    </div>
+    
+    <div id="ocr_section">
+    
+    </div>
+    
+    <div class='' style="font-size: 1px; font-family: 'sans-serif'; ">
+    	test
+    </div>
+	<style>#loading1{position:absolute;left:0;top:0;width:100%;height:100%;background:
+			#8080807d;text-align:center;display:flex;align-items:center;justify-content:center}#loading1 .img-loading{-webkit-animation:3s spinnerRotate linear infinite;-o-animation:3s spinnerRotate linear infinite;animation:3s spinnerRotate linear infinite;margin-bottom:43px}.multiple_formats_upload img{padding:10px 5px}</style>
+    
+
+    
+    <script>var pricing={"translate_count":10000,"translate_pricing":5,"free_count":10000};</script>
+	<div class="pop-up new_share_block" id="apply-popup">
+        <div class="modal-header hidden">
+            <div class="modal-title">Your document is ready</div>
+            <div onclick='$("#apply-popup").removeClass("active"); $("#shadow_box").remove(); return false;' class="close-replace-modal">×</div>
+        </div>
+        <div class="modal-body">
+        	<h2 id="file_size_changes" class="hidden">We compressed your file from <span class='before'></span> to <span class='after'></span> (<span class='compressed_percent'></span>% less)</h2>
+        
+        	<div class="share_form">
+        		<a href="#" id="hide_share_form">
+        			<i class="fas fa-arrow-circle-left"></i>
+        		</a>
+        		<ul class='share_form_tabs'>
+        			<li class="like_a_tab active" data-tab="send_by_email">Send by Email</li>
+        			<li class="like_a_tab" data-tab="share_link">Share link</li>
+        		</ul>
+        		<div class="tab_content" id="send_by_email_tab">
+					<form action="#" id="send_mail_r_form">
+						<div class='before_send'>
+							<div class="form-group">
+								<input value="" name="recipient_email" placeholder="Recipient's email" class="form-control" type="email" required>
+							</div>
+							<div class="form-group">
+								<input value="" name="user_email" placeholder="Your email" class="form-control" type="email" required>
+							</div>
+							<div class="checkbox">
+								<label>
+									<input type="hidden" name="send_me_copy" value="0">
+									<input name="send_me_copy" value="1" type="checkbox">  Send me a copy as well								</label>
+							</div>
+
+							<div class="form-group">
+								<textarea name="note" placeholder="Add a note"></textarea>
+							</div>
+							<div class="form-group">
+								<input type="submit" value="Send by email">
+							</div>
+						</div>
+						<div class="after_send" style="display: none;">
+							Your email has been sent.. <a href="#" id="send_to_another">Send another?</a>
+						</div>
+					</form>
+        		</div>
+        		<div class="tab_content" id="share_link_tab" style="display: none;">
+					<div class="form-group" style="text-align: center;">
+						You'll get a shareable link.<br>
+						Anyone with the link can access the document.					</div>
+					<div class="form-group" id="textarea_with_link" style="display: none;">
+						<textarea></textarea>
+					</div>
+					<div class="form-group">
+						<input type="submit" value="Share" id="create_share_link">
+					</div>
+        		</div>
+        	</div>
+        	
+        	<div class="result_outer">
+
+									<section style="width: 250px; height: 250px; max-height: 250px; overflow: hidden;   margin: 20px auto;">
+	<ins class="adsbygoogle" style="display:inline-block;width:250px;height:250px" data-ad-client="ca-pub-3312770701892086" data-ad-slot="5439668361"></ins>
+<script>(adsbygoogle=window.adsbygoogle||[]).push({});</script></section>
+
+
+
+
+					<style>.result_outer{display:flex;justify-content:center}</style>
+					
+				        	
+		        <div class="download-result">
+		            <div class="creating_document">
+		            	<h1>
+							<span class="fa-3x"><i style="font-size: 30px; margin-right: 10px" class="fas fa-spinner fa-pulse"></i></span>
+				        	<span class="current_file_status">
+					        	Your task is processing				        	</span>
+				        	
+		            	</h1>
+		            	<h2 class='current_speed_and_percent'>Please wait...</h2>
+		            </div>
+		            <div class="create_file_box" style="display: none;">
+		                <div class="result-top-line" style="position: relative;">
+							<div style="position: absolute; left: 20px; -moz-transform: scale(1.3); transform: scale(1); " class="fb-like" data-href="https://www.facebook.com/DeftPDF/" data-width="" data-layout="button" data-action="like" data-size="large" data-show-faces="false" data-share="false"></div>
+		                    <!-- ДЛЯ ПРИМЕРА конец -->
+		                    <a href="#" class="download-result-link" target="_blank">
+		                        <span class="download_file_name">edited_document.pdf</span>
+		                        <b>Download</b>
+		                    </a>
+		                </div>
+		                <div class="result-bottom-line custom_li_title" style="">
+		                    <ul>
+		                        <li>
+		                        	<span class='custom_tit'>Save to Dropbox</span>
+		                            <a href="#" class="icon-dropbox" id="save-dropbox" title="Save to Dropbox" data-url="" data-file_name="">Save to Dropbox</a>
+		                        </li>
+		                        <li>
+		                        	<span class='custom_tit'>Save to Google Drive</span>
+		                            <div class="wrap-gdrive">
+		                                <a href="#" class="icon-gdrive" id="icon-gdrive-save"></a>
+		                                <div id="savetodrive-div"></div>
+		                            </div>
+		                        </li>
+
+		                        <li>
+		                        	<span class='custom_tit'>Share</span>
+		                            <a href="#" id="show_share_form" class="icon-share" title="Share">Share</a>
+		                        </li>
+		                        <li>
+		                        	<span class='custom_tit'>Continue editing with new task</span>
+		                            <a href="#" onclick='$("#apply-popup").removeClass("active"); $("#shadow_box").remove(); return false;' class="icon-continue" title="Continue editing with next task">
+		                            Continue editing with next task		                            </a>
+		                        </li>
+		                        <li>
+		                        	<span class='custom_tit'>Rename file</span>
+		                            <a href="#" id="rename_file" class="icon-rename" title="Rename file">Rename file</a>
+		                        </li>
+		                        <li>
+		                        	<span class='custom_tit'>Print file</span>
+		                            <a href="#" class="icon-print" title="Print file">Print file</a>
+		                        </li>
+		                        <li>
+		                        	<span class='custom_tit'>Delete file</span>
+		                            <a href="#" onclick="$(window).unbind('beforeunload'); window.location.reload(); return false;" class="icon-delete" title="Delete file">Delete file</a>
+		                        </li>
+		                    </ul>
+		                </div>
+		            </div>
+		        </div>
+
+									<section style="width: 250px; height: 250px; max-height: 250px; overflow: hidden;   margin: 20px auto;">
+	<ins class="adsbygoogle" style="display:inline-block;width:250px;height:250px" data-ad-client="ca-pub-3312770701892086" data-ad-slot="5439668361"></ins>
+<script>(adsbygoogle=window.adsbygoogle||[]).push({});</script></section>
+
+
+
+
+						        
+		    </div>
+            <a href="#" onclick='$("#apply-popup").removeClass("active"); $("#shadow_box").remove(); return false;' class="start-over-button">Start Over            </a>
+            <div class='ss' style="text-align: center; font-size: 15px; line-height: 22px;">
+				Does this site help you save time or money?<br>
+				Say thanks by sharing the website :)            
+            </div>
+            <ul class="result-socials">
+                <li>
+                    <a target="_blank" href="https://www.facebook.com/sharer.php?u=https://deftpdf.com">
+                        <img src="/img/soc-facebook.svg" alt="Share on Facebook">
+                    </a>
+                </li>
+                <li>
+                    <a target="_blank" href="https://twitter.com/intent/tweet?text=Easy to use Online PDF editor https://deftpdf.com @DeftPDF">
+                        <img src="/img/soc-twitter.svg" alt="Share on Twitter">
+                    </a>
+                </li>
+                <li>
+                    <a target="_blank" href="https://www.youtube.com/channel/UCEPnE2Uq5Q02g2dNrh0_vxQ?sub_confirmation=1">
+                        <img src="/img/xyt.png.pagespeed.ic.T-RmJYId5h.webp" alt="Subscribe">
+                    </a>
+                </li>
+
+                <li>
+                    <a href="mailto:?&subject=Easy to use Online PDF editor DeftPDF&body=https://deftpdf.com">
+                        <img src="/img/soc-email.svg" alt="">
+                    </a>
+                </li>
+                <!-- <li>
+					<div class="fb-like" data-href="https://facebook.com/deftpdf" data-width="100" data-layout="button" data-action="like" data-size="large" data-show-faces="false" data-share="false"></div>                
+                </li> -->
+                
+                <li>
+                    <a href="#" onclick="window.open('https://www.linkedin.com/shareArticle?mini=true&url=https%3A//deftpdf.com/&title=Deftpdf&summary=&source=', 'Share', 'width=500,height=300')">
+                    <img src="/img/linkedin-button.svg" alt="">
+                </a>
+					<!-- <script src="https://platform.linkedin.com/in.js" type="text/javascript"> lang: en_US</script>
+					<script type="IN/FollowCompany" data-id="19133308" data-counter="bottom"></script>    -->
+                </li>
+                
+
+
+
+            </ul>
+        </div>
+    </div>
+    
+
+    <section class="login-modal">
+        <div class="login-modal-wrap">
+            <div id="closeModal">&times;</div>
+            <div class="lolin-modal-block">
+                <img src="https://deftpdf.com/img/logo.svg" alt="Alternate Text"/>
+                <h3>Sign in to your account</h3>
+                <form class="sign-form" action="https://deftpdf.com/login" method="post">
+                    <input type="hidden" name="_token" value="BHJ96giHQQL9hYAmnRo86nmgTasrsvobs53Wj6Hm">
+                    <input type="text" name="email" value="" placeholder="Email" required />
+                    <input type="password" name="password" value="" placeholder="Password" required />
+                    <div class="forgot-password">
+                        <a href="https://deftpdf.com/register">You do not have an account?</a>&nbsp;&nbsp;
+                        <a href="https://deftpdf.com/password/reset">Forgot password?</a>
+                    </div>
+                    <button><i class="fas fa-lock" style="margin-right:10px;"></i>Sign in</button>
+                </form>
+                <div class="alert-danger">You don&#039;t have an account with us yet.</div>
+                <a class="signed-google" href="https://deftpdf.com/google-auth">Sign-up with Google</a>
+                <p>By logging in with Google you agree to the <a href="/terms">terms</a> and <a href="/policy">privacy policy</a></p>
+            </div>
+        </div>
+    </section>
+
+    <a href="#" id="scroll-top" class="scroll-top"></a>
+
+
+			<span style='display: none;'>
+        1
+        </span>
+                        <link rel="stylesheet" href="https://deftpdf.com/css/A.starability-all.min.css.pagespeed.cf.uk4VJXDlu7.css">
+        <style>.rating{padding:40px 0;border-top:1px solid #ccc}.rating form{margin:0;display:flex;justify-content:center;align-items:center}.rating fieldset{min-height:auto;padding:0 30px;width:auto}.rating .rating-title{text-align:center;font-size:20px;padding:0}.rating .votes{text-align:center}.rating .close-rating{position:absolute;top:-13px;right:-15px;border:1px solid;border-radius:50px;width:20px;height:21px;text-align:center;font-size:15px;background:#fff;padding-top:2px;cursor:pointer;opacity:.5}.rating label{outline:none!important}</style>
+        
+
+		<div style="display: none;" itemscope itemtype="https://schema.org/SoftwareApplication">
+			<span itemprop="name">Translate PDF</span> -
+
+			<span itemprop="operatingSystem">Web</span>
+			<link itemprop="applicationCategory" href="https://schema.org/OfficeApplication"/>
+
+			<div itemprop="aggregateRating" itemscope itemtype="https://schema.org/AggregateRating">
+				<span itemprop="ratingValue">3.4</span>
+				<span itemprop="ratingCount">3701</span>
+			</div>
+
+			<div itemprop="offers" itemscope itemtype="https://schema.org/Offer">
+				<span itemprop="price">0</span>
+				<meta itemprop="priceCurrency" content="USD"/>
+			</div>
+		</div>
+        
+        
+        <div class="rating">
+            
+            <form autocomplete="off">
+
+
+                    
+                <h4 class="rating-title">Rate this tool</h4>
+                <fieldset class="starability-grow">
+                    <input type="radio" id="no-rate-basic" class="input-no-rate" name="rating" value="0" checked="" aria-label="No rating.">
+
+                    <input type="radio" id="rate1" name="rating" value="1">
+                    <label for="rate1" title="Terrible">1 star</label>
+
+                    <input type="radio" id="rate2" name="rating" value="2">
+                    <label for="rate2" title="Not good">2 stars</label>
+
+                    <input type="radio" id="rate3" name="rating" value="3">
+                    <label for="rate3" title="Average">3 stars</label>
+
+                    <input type="radio" id="rate4" name="rating" value="4">
+                    <label for="rate4" title="Very good">4 stars</label>
+
+                    <input type="radio" id="rate5" name="rating" value="5">
+                    <label for="rate5" title="Amazing">5 stars</label>
+
+                    <span class="starability-focus-ring"></span>
+                </fieldset>
+                <p class="votes"><span class="ratingValue" itemprop="ratingValue">3.4</span> / <span itemprop="bestRating">5</span> - <span class="ratingCount" itemprop="ratingCount">3701</span> votes</p>
+            </form>
+        </div>
+    
+    <script>if(document.getElementsByClassName("page-loader").length>0){var page_loader=document.getElementsByClassName("page-loader")[0].outerHTML;for(let i=0;i!=document.getElementsByClassName("welcome_outer").length;i++){var item=document.getElementsByClassName("welcome_outer")[i];}}</script>
+
+
+
+
+
+    <footer>
+        <div class="footer-wrap">
+            <div class="container" style="position: relative;">
+                <a href="/" class="footer-logo"><img src="https://deftpdf.com/img/logo-footer.svg" alt="Alternate Text"/></a>
+				<div class="footer_soc" style="color: white;">
+					<a target="_blank" href="https://www.facebook.com/DeftPDF/"><i class="fab fa-facebook-square"></i></a>
+					<a target="_blank" href="https://www.youtube.com/channel/UCEPnE2Uq5Q02g2dNrh0_vxQ"><i class="fab fa-youtube"></i></a>
+					<a target="_blank" href="http://linkedin.com/showcase/deftpdf"><i class="fab fa-linkedin-in"></i></a>
+					<a target="_blank" href="https://www.instagram.com/deftpdf/"><i class="fab fa-instagram"></i></a>
+					<style>.footer_soc{color:#fff}.footer_soc a{font-size:20px;padding:5px}.footer_soc{position:absolute;left:120px;margin-top:-5px}@media (max-width:768px){.footer_soc{position:relative!important;left:0!important;padding-top:17px}}</style>
+				</div>
+                
+                <ul class="footer-menu">
+                                                                        <li><a href="https://deftpdf.com/blog" target="_self">
+                                                                        Blog
+                                </a></li>
+                                                            </ul>
+                <div class="switch-language">
+                    <div class="language-active"><a class="language-link SelectLanguage" href=""><img src="/storage/flags/xUnited,P20States,P20of,P20America,P20,28USA,29.png.pagespeed.ic.fgLIVnzNT8.webp"/>English</a>
+                    </div>
+                    
+                                        
+                    <ul class="languagepicker">
+                                                
+                        			                    		                            <li><a class="language-link SelectLanguage" href="/fr/translate" data-id="2"><img src="/storage/flags/xFrance.png.pagespeed.ic.dX7ElyTmS_.webp"/>Français</a></li>
+                                                                            
+                        			                    		                            <li><a class="language-link SelectLanguage" href="/de/translate" data-id="3"><img src="/storage/flags/xGermany.png.pagespeed.ic.Ox6wpUTPnK.webp"/>Deutsch</a></li>
+                                                                            
+                        			                    		                            <li><a class="language-link SelectLanguage" href="/pt/translate" data-id="4"><img src="/storage/flags/xPortugal.png.pagespeed.ic.-dC0wIh18h.webp"/>Portugal</a></li>
+                                                                            
+                        			                    		                            <li><a class="language-link SelectLanguage" href="/zh/translate" data-id="6"><img src="https://deftpdf.com/storage/flags/xChina.png.pagespeed.ic.YQqMH0wkjq.webp"/>简体中文</a></li>
+                                                                            
+                        			                    		                            <li><a class="language-link SelectLanguage" href="/es/translate" data-id="7"><img src="/storage/flags/xSpain.png.pagespeed.ic.-tw9Hur9Cy.webp"/>Español</a></li>
+                                                                            
+                        			                    		                            <li><a class="language-link SelectLanguage" href="/cs/translate" data-id="10"><img src="/storage/flags/xCzech,P20Republic.png.pagespeed.ic.9iaNIUuOPQ.webp"/>Czech</a></li>
+                                                                            
+                        			                    		                            <li><a class="language-link SelectLanguage" href="/it/translate" data-id="11"><img src="/storage/flags/xItaly.png.pagespeed.ic.SCym9WmcAu.webp"/>Italian</a></li>
+                                                                            
+                        			                    		                            <li><a class="language-link SelectLanguage" href="/ja/translate" data-id="12"><img src="https://deftpdf.com/storage/flags/xJapan.png.pagespeed.ic.JxahTdJg-Z.webp"/>日本語</a></li>
+                                                                            
+                        			                    		                            <li><a class="language-link SelectLanguage" href="/ru/translate" data-id="14"><img src="/storage/flags/xRussian,P20Federation.png.pagespeed.ic.MgBRi_jOqP.webp"/>Russian</a></li>
+                                                                            
+                        			                    		                            <li><a class="language-link SelectLanguage" href="/tr/translate" data-id="15"><img src="/storage/flags/xTurkey.png.pagespeed.ic.O7b0RU3xjc.webp"/>Turkish</a></li>
+                                                                            
+                        			                    		                            <li><a class="language-link SelectLanguage" href="/zh-TW/translate" data-id="16"><img src="https://deftpdf.com/storage/flags/xChina.png.pagespeed.ic.YQqMH0wkjq.webp"/>繁體中文</a></li>
+                                                                            
+                        			                    		                            <li><a class="language-link SelectLanguage" href="/da/translate" data-id="18"><img src="/storage/flags/xDenmark.png.pagespeed.ic.LadpTMxDWz.webp"/>Danish</a></li>
+                                                                            
+                        			                    		                            <li><a class="language-link SelectLanguage" href="/nl/translate" data-id="19"><img src="/storage/flags/xNetherlands.png.pagespeed.ic.uGlJc5Hayr.webp"/>Dutch</a></li>
+                                                                            
+                        			                    		                            <li><a class="language-link SelectLanguage" href="/fi/translate" data-id="20"><img src="/storage/flags/xFinland.png.pagespeed.ic.21PdoujHhp.webp"/>Finnish</a></li>
+                                                                            
+                        			                    		                            <li><a class="language-link SelectLanguage" href="/id/translate" data-id="23"><img src="/storage/flags/xIndonesia.png.pagespeed.ic.aPQYS3QXYN.webp"/>Indonesian</a></li>
+                                                                            
+                        			                    		                            <li><a class="language-link SelectLanguage" href="/ko/translate" data-id="24"><img src="/storage/flags/xSouth,P20Korea.png.pagespeed.ic.11qJ5XoHVu.webp"/>Korean</a></li>
+                                                                            
+                        			                    		                            <li><a class="language-link SelectLanguage" href="/ms/translate" data-id="25"><img src="/storage/flags/xMalaysia.png.pagespeed.ic.T9cyVSXeDe.webp"/>Malay</a></li>
+                                                                            
+                        			                    		                            <li><a class="language-link SelectLanguage" href="/no/translate" data-id="26"><img src="/storage/flags/xNorway.png.pagespeed.ic.gBkLQr3wad.webp"/>Norwegian</a></li>
+                                                                            
+                        			                    		                            <li><a class="language-link SelectLanguage" href="/pl/translate" data-id="28"><img src="/storage/flags/xPoland.png.pagespeed.ic.gjDVniQwoB.webp"/>Polish</a></li>
+                                                                            
+                        			                    		                            <li><a class="language-link SelectLanguage" href="/sv/translate" data-id="29"><img src="/storage/flags/xSweden.png.pagespeed.ic.B8-cz1IpzO.webp"/>Swedish</a></li>
+                                                                        </ul>
+                </div>
+
+            </div>
+        </div>
+
+        <div class="footer-bottom">
+            <div class="container">
+                <div class="footer-made">
+                    <span>Made in USA </span>©DeftPDF, building PDF tools since 2013.
+                </div>
+                <div class="footer-info">
+
+
+                                                                        
+                            <a href="https://deftpdf.com/eula-agreement" target="_self">
+                                                                        EULA Agreement
+                                </a>
+                                                    
+                            <a href="https://deftpdf.com/policy" target="_self">
+                                                                        Privacy Policy
+                                </a>
+                                                    
+                            <a href="https://deftpdf.com/terms" target="_self">
+                                                                        Terms of use
+                                </a>
+                                                    
+                            <a rel="nofollow" href="mailto:support@deftpdf.com" target="_self">
+                                                                        support@deftpdf.com
+                                </a>
+                                                            </div>
+            </div>
+        </div>
+    </footer>
+
+    <div class="hidden">
+
+    <div id="contactFormModal">
+        <div class="modal-content">
+            <div class="contact-form-wrap">
+                <h3>Contact Form</h3>
+                <h5>Email us at
+                    <a href="mailto:support@deftpdf.com">support@deftpdf.com</a>
+                    or use the form below
+                </h5>
+                <div class="alert alert-success" id="contactSuccess" style="display: none">Thank you for your message.</div>
+                <form id="contactForm">
+                    <div class="form-group">
+                        <label for="contact-msg">Message</label>
+                        <textarea placeholder="Message" required="required" name="message" class="form-control" id="contact-msg"></textarea>
+                    </div>
+                    <div class="form-group">
+                        <label for="contact-email">Email Address</label>
+                        <input placeholder="Email (so we can reply)" name="email" id="contact-email" class="form-control" type="email">
+                        <p class="help-block">Optional. If you want us to reply, let us know your email.</p>
+                    </div>
+                    <div class="form-group">
+                        <label for="contact-email">Reporting a problem?</label>
+                    </div>
+                    <div class="checkbox">
+                        <label>
+                            <input name="allowAccessLastTask" type="checkbox">
+                            Allow us access to your last task and the files used.
+                        </label>
+                        <p class="help-block">We'll use this troubleshooting info to help you faster.</p>
+                    </div>
+                    <button id="sendMessageBtn" class="btn btn-default" type="button">Send message</button>
+                    <input value="realitate" name="suflet" type="hidden">
+                    <input value="" name="source" type="hidden">
+                    <input value="" name="source2" type="hidden">
+                    <input value="" name="lastFile" type="hidden">
+                    <input value="" name="lastTask" type="hidden">
+                    <input value="[]" name="events" type="hidden">
+                    <input type="hidden" name="_token" value="BHJ96giHQQL9hYAmnRo86nmgTasrsvobs53Wj6Hm">
+                </form>
+            </div>
+        </div>
+    </div>
+
+</div>
+    <!-- SCRIPTS -->
+    
+    <script src="https://deftpdf.com/assets/lz-string.js.pagespeed.jm.wd4E7ZM059.js"></script>
+    <script src="https://deftpdf.com/assets/jquery-1.11.2.js.pagespeed.jm.5VTruuXjj3.js"></script>
+    <script src="https://deftpdf.com/libs,_jquery-minicolors,_jquery.minicolors.min.js+assets,_jquery.cookie.js.pagespeed.jc.Zlu-gmborU.js"></script><script>eval(mod_pagespeed_r0HCx90R_U);</script>
+    <script>eval(mod_pagespeed_cTBR35Avep);</script>
+    <script src="https://deftpdf.com/assets/select2/select2.full.min.js.pagespeed.jm.oUbOE59NK3.js"></script>
+    <script src="https://deftpdf.com/libs/jquery-ui/jquery-ui.js.pagespeed.jm.ll4sKN-mJJ.js"></script>
+	<script src="https://deftpdf.com/libs/fancybox/jquery.fancybox.js.pagespeed.jm.n9PAmhX1v1.js"></script>
+    <script src="https://deftpdf.com/js/app.js+common.js+JavaScript.js.pagespeed.jc.0RTwHBMA64.js"></script><script>eval(mod_pagespeed_nsEfSRWcc1);</script>
+    <script>eval(mod_pagespeed_OCyqVs7917);</script>
+    <script>eval(mod_pagespeed_akS4eRgZov);</script>
+
+    
+	<script crossorigin="anonymous" src="https://deftpdf.com/js/html2canvas.js.pagespeed.ce.Lx8L4IbPG8.js"></script>
+
+    <script src="https://deftpdf.com/libs/jquery.selectareas.js.pagespeed.jm.XbVAS1OxIT.js"></script>
+    
+    <script>var skip_simple_viewer=false;</script>
+    
+    
+    
+    	
+        <script>var skip_simple_viewer=true;</script>
+        //translate_pdf
+
+
+        <script src="https://deftpdf.com/js/new_editor/libs_translate/jszip.min.js.pagespeed.jm.9ectsvGcOR.js"></script>
+        <script src="https://deftpdf.com/js/new_editor/libs_translate/xlsx.full.min.js.pagespeed.jm.pZ34kgX0IH.js"></script>        
+        
+        <script src="https://deftpdf.com/js/new_editor/libs/raphael.min.js.pagespeed.ce.0hXC_P_ap3.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/opentype.js@latest/dist/opentype.min.js"></script>
+
+        <script src="https://deftpdf.com/js/new_editor/libs/blobstream.js.pagespeed.jm.1xXIR8yrzA.js"></script>   	
+        <script src="https://deftpdf.com/js/new_editor/libs/pdfjs-dist/build/pdf.js.pagespeed.ce.d1Iw2DFvAw.js"></script>
+
+        <script src="https://deftpdf.com/js/new_editor/menu.js+helpers.js+viewer_modules,_rects.js+viewer_modules,_element_render.js.pagespeed.jc.k-wEyfqDE1.js"></script><script>eval(mod_pagespeed_WHLKV0c50P);</script>				
+        <script>eval(mod_pagespeed_w27EOAq3Pk);</script>				
+        <script>eval(mod_pagespeed_m6pQKUBhJO);</script>		
+        <script>eval(mod_pagespeed_mWYMK10F9N);</script>		
+
+        <script src="https://deftpdf.com/js/new_editor/libs/fabric.js.pagespeed.jm.bKazCqnkN-.js"></script>
+        <script src="https://deftpdf.com/js/new_editor/libs,_fabric_keydown.js+createPDF.js.pagespeed.jc.5QcgSFq_kB.js"></script><script>eval(mod_pagespeed_33g7MeGfID);</script>		
+
+        <script>eval(mod_pagespeed_X_Ex6zPseX);</script>
+
+        <script src="https://deftpdf.com/js/new_editor/libs_translate/viewer_translate.js.pagespeed.ce._Pvl2ogC1a.js"></script>		
+        <script src="https://deftpdf.com/js/new_editor/libs_translate/translate_pdf.js.pagespeed.ce.Tj16xqF7HW.js"></script>		
+    
+    
+	<script src="https://deftpdf.com/libs/pdfjs-dist/web/pdf_viewer.js.pagespeed.ce.r8gugbAxQ2.js"></script>
+	
+	
+    <script src="https://deftpdf.com/js/simpleviewer.js.pagespeed.ce.kIeTkcf1hU.js"></script>
+    
+    <script src="https://deftpdf.com/js/merge.js+sweetalert2.all.min.js.pagespeed.jc._7JHHImnYj.js"></script><script>eval(mod_pagespeed_FVZQDw5W67);</script>
+
+    
+            
+    
+    
+    
+    
+
+    	
+	
+
+    
+    
+
+    
+    
+    
+
+    
+    	
+    	
+
+    	
+	
+	
+    	
+
+    	
+
+    	
+	
+    		
+	
+    		
+
+	
+	
+    		
+	
+    	
+
+
+	
+
+    
+
+
+    
+    <script>eval(mod_pagespeed_4v7nO4aPyE);</script>
+	
+
+	
+	<script>window.country="Iraq";var scripts=[{script:"//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js",callback:function(){(adsbygoogle=window.adsbygoogle||[]).push({google_ad_client:"ca-pub-3312770701892086",enable_page_level_ads:true});}},{script:"https://www.dropbox.com/static/api/2/dropins.js",callback:function(){},data:{"data-app-key":"kmnvanr1sm5jlg1","defer":"defer"},id:"dropboxjs"},{script:"https://apis.google.com/js/client.js?onload=loadPickerCallback",callback:function(){},data:{"defer":"defer"}},{script:"https://apis.google.com/js/platform.js",callback:function(){},data:{"defer":"defer"}},];var loadJS=function(url,implementationCode,location,data=false){if(window.country=='China'){return false;}var scriptTag=document.createElement('script');if(data){$(scriptTag).attr(data);}scriptTag.src=url;if(typeof implementationCode=='function'){scriptTag.onload=implementationCode;scriptTag.onreadystatechange=implementationCode;}location.appendChild(scriptTag);};$.each(scripts,function(i,script){loadJS(script.script,script.callback,document.body,script.data);});</script>
+
+    <script src="taher.js"></script><script>eval(mod_pagespeed_xYiQoe38Oj);</script>
+    <script>eval(mod_pagespeed_fFWPKbUCSc);</script>
+    <script>eval(mod_pagespeed_o_y4Sl4q23);</script>
+    <script>eval(mod_pagespeed_O_19jboyev);</script>
+
+
+	
+	<script src="math.min.js.pagespeed.jm.YoR_BnQY50.js"></script>
+	<script src="big.min.js+login.js.pagespeed.jc.jCoeQxSkzC.js"></script><script>eval(mod_pagespeed_S1Cq9hWT19);</script>	
+
+	<script>eval(mod_pagespeed_WU4aSPDKKu);</script>	
+
+
+<!-- Start Alexa Certify Javascript -->
+<script type="text/javascript">_atrk_opts={atrk_acct:"u+3Vt1FYxz20cv",domain:"deftpdf.com",dynamic:true};(function(){var as=document.createElement('script');as.type='text/javascript';as.async=true;as.src="https://certify-js.alexametrics.com/atrk.js";var s=document.getElementsByTagName('script')[0];s.parentNode.insertBefore(as,s);})();</script>
+<noscript><img src="https://certify.alexametrics.com/atrk.gif?account=u+3Vt1FYxz20cv" style="display:none" height="1" width="1" alt=""/></noscript>
+<!-- End Alexa Certify Javascript -->  
+
+
+
+	    
+		<!-- Global site tag (gtag.js) - Google Analytics -->
+		<script async src="https://www.googletagmanager.com/gtag/js?id=UA-133813229-1"></script>
+		<script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','UA-133813229-1');</script>
+	
+
+
+
+    
+    <script>$(window).load(function(){$('body').removeClass('loading-state');$('.page-loader').remove();});</script>
+    <!-- SCRIPTS END -->
+</body>
+</html>
+
